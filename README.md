@@ -1,5 +1,5 @@
 
-## My resume page : https://yassinehasni17.github.io/Cv-Dev-/
+## My resume page : https://YassineHasni17.github.io/my-resume/
 
 
 
