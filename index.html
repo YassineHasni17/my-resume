@@ -634,133 +634,123 @@
             <!--//section-->
 
 
-            <section class="skills-section section">
-                <style>
-                    /* Container dyal ster */
-                    .skillset .skill-row {
-                        display: flex;
-                        /* Kayferreqhum: Titre 3la liser, Details 3la limen */
-                        align-items: baseline;
-                        /* Kayqad l-ktaba f nfs l-khat */
-                        margin-bottom: 12px;
-                        width: 100%;
-                    }
+           <section class="skills-section section">
+    <style>
+        .skillset .skill-row {
+            display: flex;       
+            align-items: baseline; 
+            margin-bottom: 12px;
+            width: 100%;
+        }
 
-                    /* Titre (L-3amoud d l-iser) */
-                    .skillset .level-title {
-                        width: 200px;
-                        /* 3tina l-Titre 3erd fix (bdelha ila bghiti) */
-                        min-width: 200px;
-                        /* Darouri bach maytsgharch */
-                        flex-shrink: 0;
-                        /* Kanmen3uh ytsghar */
-                        margin: 0 !important;
-                        font-weight: 700;
-                        color: #333;
-                        text-transform: uppercase;
-                        font-size: 0.9rem;
-                    }
+        .skillset .level-title {
+            width: 200px;        
+            min-width: 200px;    
+            flex-shrink: 0;      
+            margin: 0 !important;
+            font-weight: 700;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
 
-                    /* Details (L-3amoud d l-imen) */
-                    .skillset .details {
-                        flex-grow: 1;
-                        /* Kayakhod l-espace li bqa kaml */
-                        display: block;
-                        /* Bach l-text y-wrappé dakhil l-boite dyalo */
-                        line-height: 1.6;
-                        color: #555;
-                    }
+        .skillset .details {
+            flex-grow: 1;        
+            display: block;      
+            line-height: 1.6;
+            color: #555;
+        }
 
-                    /* Bold styles */
-                    .skillset .details strong {
-                        color: #000;
-                        font-weight: 600;
-                    }
+        .skillset .details strong {
+            color: #000;
+            font-weight: 600;
+        }
 
-                    /* --- MOBILE VERSION --- */
-                    /* Hna fin kangulu lih: ila kan l-ecran sghir, 3ad hbet l-te7t */
-                    @media (max-width: 768px) {
-                        .skillset .skill-row {
-                            flex-direction: column;
-                            /* Reje3hum wa7ed foq wa7ed f téléphone */
-                        }
+        @media (max-width: 768px) {
+            .skillset .skill-row {
+                flex-direction: column; 
+            }
+            
+            .skillset .level-title {
+                width: 100%;
+                min-width: auto;
+                margin-bottom: 5px !important;
+                border-bottom: 1px solid #eee;
+            }
+        }
+    </style>
 
-                        .skillset .level-title {
-                            width: 100%;
-                            min-width: auto;
-                            margin-bottom: 5px !important;
-                            border-bottom: 1px solid #eee;
-                        }
-                    }
-                </style>
+    <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>COMPÉTENCES TECHNIQUES</h2>
+    
+    <div class="skillset">
+         <div class="item">
 
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>COMPÉTENCES
-                    TECHNIQUES</h2>
-
-                <div class="skillset">
-                    <div class="item">
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Backend & API</h3>
-                            <div class="details">
-                                <strong>Spring Boot</strong>, <strong>NestJS</strong>, <strong>Node.js</strong>, Python
-                                (Django/Flask), PHP (Laravel), REST, GraphQL.
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Frontend</h3>
-                            <div class="details">
-                                <strong>React.js</strong>, <strong>Next.js (SSR)</strong>, TypeScript, TailwindCSS,
-                                Bootstrap.
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Data & Storage</h3>
-                            <div class="details">
-                                <strong>PostgreSQL</strong>, MySQL, MongoDB, Redis, MinIO (Object Storage).
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">DevOps & CI/CD</h3>
-                            <div class="details">
-                                <strong>Docker</strong>, GitLab CI, GitHub Actions, Linux (Ubuntu).
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">AI & Automation</h3>
-                            <div class="details">
-                                OpenAI API (LLM Integration), n8n (Workflow Automation), Computer Vision Basics.
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Tools & Security</h3>
-                            <div class="details">
-                                Git, JWT Auth, Swagger (OpenAPI), Postman, SonarQube.
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Langages</h3>
-                            <div class="details">
-                                Java, JavaScript (ES6+), Python, PHP, SQL.
-                            </div>
-                        </div>
-
-                        <div class="skill-row">
-                            <h3 class="level-title">Méthodologies</h3>
-                            <div class="details">
-                                Agile Scrum, Gestion de projet (Jira), Code Review.
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="skill-row">
+                <h3 class="level-title">Backend & API</h3>
+                <div class="details">
+                    <strong>Spring Boot</strong>, <strong>NestJS</strong>, <strong>Node.js</strong>, Python (Django/Flask), PHP (Laravel), REST, GraphQL.
                 </div>
-            </section>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">Frontend</h3>
+                <div class="details">
+                    <strong>React.js</strong>, <strong>Next.js (SSR)</strong>, TypeScript, TailwindCSS, Bootstrap.
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">Data & Storage</h3>
+                <div class="details">
+                    <strong>PostgreSQL</strong>, MySQL, MongoDB, Redis, MinIO (Object Storage).
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">Systèmes & Réseaux</h3>
+                <div class="details">
+                    <strong>Linux Admin (Bash/Shell)</strong>, Windows Server, TCP/IP, DNS, SSH, HTTP/HTTPS.
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">DevOps & CI/CD</h3>
+                <div class="details">
+                    <strong>Docker</strong>, GitLab CI, GitHub Actions, Nginx, Apache.
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">AI & Automation</h3>
+                <div class="details">
+                    OpenAI API (LLM Integration), n8n (Workflow Automation), Computer Vision Basics.
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">Tools & Security</h3>
+                <div class="details">
+                    Git, JWT Auth, Swagger (OpenAPI), Postman, SonarQube.
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <h3 class="level-title">Langages</h3>
+                <div class="details">
+                    Java, JavaScript (ES6+), Python, PHP, SQL, C/C++.
+                </div>
+            </div>
+            
+            <div class="skill-row">
+                <h3 class="level-title">Méthodologies</h3>
+                <div class="details">
+                    Agile Scrum, Gestion de projet (Jira), Code Review.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
             <!--//skills-section-->
 
         </div>
